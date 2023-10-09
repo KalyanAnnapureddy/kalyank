@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container{
+            position: relative;
+            width: 350px;
+            height: 350px;
+            border: 1px solid #ccc;
+            margin: 30px;
+        }
+        
+        .static-element{
+            width: 60px;
+            height: 60px;
+    
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        .relative-element{
+            position: relative;
+            top: 100px;
+            left: 50px;
+            width: 60px;
+            height: 60px;
+            
+            
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        
+        .absolute-element{
+            position: absolute;
+            top: 110px;
+            left: 50px;
+            width: 60px;
+            height: 60px;
+            
+               
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+       
+        .fixed-element{
+            position: fixed;
+             top: 100px;
+            left: 50px;
+            width: 60px;
+            height: 60px;
+            
+            
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        .main{
+            display: :flex;
+            flex-direction: :row;
+            align-items: center;
+            justify-content:space-around;
+            
+        }
+        
+    </style>
+    </head>
+    <body>
+    <h2>positioning types example</h2>
+        
+        <div class="container">
+        <div class="static-element">static</div>
+            <img src="lion.jpg">
+        
+        </div>
+        <div class="container">
+        <div class="relative-element">relative</div>
+            <img src="elephant.jpg">
+            
+        </div>
+        <div class="container">
+        <div class="absolute-element">absolute</div>
+            <img src="dogs.jpg">
+            
+        </div>
+        <div class="container">
+        <div class="fixed-element">fixed</div>
+            <img src="tiger.avif">
+            
+        </div>
+        <div class="main">
+        <img src="garden.jpg">
+            <img src="nature%20img.jpg">
+            <img src="trees.jpg">
+        </div>
+        
+    </body>
+</html>
